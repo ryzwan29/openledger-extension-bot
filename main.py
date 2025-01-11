@@ -56,7 +56,7 @@ def display_header():
     header_lines = [
         separator,
         f"{Colors.CYAN}{Colors.BOLD} OpenLedger Auto Send Heartbeat Bot {version}{Colors.END}",
-        f"{Colors.BLUE} Join Us : https://t.me/AirdropInsiderID {Colors.END}",
+        f"{Colors.BLUE} @Ryddd | Testnet, Node Runer, Developer, Retrodrop {Colors.END}",
         separator
     ]
 
