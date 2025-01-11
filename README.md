@@ -22,18 +22,11 @@ A Python bot for automatically managing OpenLedger heartbeat operations with mul
 
 ## 📥 Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/airdropinsiders/OpenLedger-Heartbeat-Bot.git
-cd OpenLedger-Heartbeat-Bot
+```
+source <(curl -s https://raw.githubusercontent.com/ryzwan29/openledger-extension-bot/main/quick-installation.sh)
 ```
 
-2. Install required packages:
-```bash
-pip install -r requirements.txt
-```
-
-3. Set up your configuration files:
+Set up your configuration files:
    - `account.txt`: Your account credentials
    - `proxy.txt`: List of proxies (optional)
    - `src/gpu.json`: GPU configurations
@@ -42,8 +35,8 @@ pip install -r requirements.txt
 
 ### How To Get Token,WorkerID,OwnerAddress
 To get `Token`, `WorkerID`, `id` and `owneraddress` follow this steps:
-- Register account first, you can [click here to register](https://testnet.openledger.xyz/?referral_code=ikurpd77ae)
-- Download the [Extension](https://chromewebstore.google.com/detail/teneo-community-node/emcclcoaglgcpoognfiggmhnhgabppkm)
+- Register account first, you can [click here to register](https://testnet.openledger.xyz/?referral_code=grrltfszz4)
+- Download the [Extension](https://chromewebstore.google.com/detail/openledger-node/ekbbplmjjgoobhdlffmgeokalelnmjjc)
 - Open Extension and right click and select `inspect`![no 1](https://github.com/user-attachments/assets/8abd970b-c1bc-44e1-b305-a9d76e7af063)
 
 - Go to `network` tab![no 2](https://github.com/user-attachments/assets/4fa5e1ce-b49c-46c4-b70e-26307d465d62)
@@ -85,10 +78,19 @@ JSON array containing available GPU models:
 1. Make sure all configuration files are properly set up
 2. Run the bot:
 ```bash
-python main.py
+python3 main.py
 ```
-
 3. Choose whether to use proxies when prompted
+
+
+## 🔄 Auto-Restart (Optional)
+
+To keep the bot running continuously, you can use this script:
+
+```bash
+chmod +x auto-restart.sh
+./auto-restart.sh
+```
 
 ## 📊 Monitoring
 
@@ -114,24 +116,6 @@ The bot uses color-coded messages for different types of information:
 2. Using proxies is recommended to avoid IP restrictions
 3. Make sure your proxies are stable and fast for optimal performance
 4. Monitor the bot regularly to ensure proper operation
-
-## 🔄 Auto-Restart (Optional)
-
-To keep the bot running continuously, you can use a script like this:
-
-```bash
-#!/bin/bash
-while true; do
-    python main.py
-    sleep 10
-done
-```
-
-Save as `start.sh` and run:
-```bash
-chmod +x start.sh
-./start.sh
-```
 
 ## 📝 Logging
 
@@ -175,10 +159,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Community
-
-- Join our Telegram group: [https://t.me/AirdropInsiderID](https://t.me/AirdropInsiderID)
-
 ## ⚠️ Disclaimer
 
 This bot is for educational purposes only. Use at your own risk. The developers are not responsible for any misuse or damage caused by this program.
+
+SC : [https://github.com/airdropinsiders](https://github.com/airdropinsiders)
