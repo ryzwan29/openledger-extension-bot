@@ -5,7 +5,6 @@ websockets
 # Proxy support
 aiohttp-socks
 python-socks
-https-proxy-agent
 
 # Async support
 asyncio
